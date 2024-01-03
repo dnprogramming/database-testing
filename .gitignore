@@ -1,0 +1,96 @@
+# Compiled object files
+*.o
+*.obj
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Generated files
+*.gen
+*.generated
+
+# Dependency files
+*.d
+
+# Packages
+# It's better to exclude specific package files instead of entire directories
+# unless you're certain you don't need them in version control.
+# *.nupkg
+# *.jar
+# *.gem
+# *.zip
+# *.whl
+
+# Unit test results
+*.test
+*.xml
+
+# Coverage reports
+*.coverage
+*.coverprofile
+
+# Build artifacts
+build/
+bin/
+obj/
+target/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+vendor/
+node_modules/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.vbproj
+*.fsproj
+
+# Temporary files
+*~
+.DS_Store
+Thumbs.db
+
+# OS-specific files
+.DS_Store
+._*
+
+# Go-specific files
+Godeps/_workspace/
+*.coverprofile
+
+# Java-specific files
+*.class
+
+# .NET-specific files
+*.cache
+*.pdb
+
+# Node.js-specific files
+npm-debug.log
+
+# Python-specific files
+__pycache__/
+
+# Rust-specific files
+Cargo.lock
+rust/target
+
+# Specific to your project
+# Add any other files or directories you don't want to track here
