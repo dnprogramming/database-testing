@@ -1,4 +1,4 @@
-package database
+package main
 
 import (
 	"database/sql"
@@ -8,7 +8,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-func NewDB() (*sql.DB, error) {
+func NewPostgresDB() (*sql.DB, error) {
 	// Get the Postgres connection details from environment variables
 	host := os.Getenv("PG_HOST")
 	port := os.Getenv("PG_PORT")

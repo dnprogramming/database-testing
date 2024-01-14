@@ -1,4 +1,4 @@
-package database
+package main
 
 import (
 	"database/sql"
@@ -32,16 +32,4 @@ func NewMySQLDB() (*sql.DB, error) {
 	}
 
 	return db, nil
-}
-
-func main() {
-	db, err := NewMySQLDB()
-	if err != nil {
-		fmt.Println("Failed to connect to MySQL:", err)
-		return
-	}
-
-	defer db.Close()
-
-	// Use the database connection...
 }

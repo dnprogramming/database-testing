@@ -1,4 +1,4 @@
-module github.com/dnprogramming/programtests
+module github.com/dnprogramming/database-testing/go
 
 go 1.21.5
 
